@@ -1,0 +1,860 @@
+[
+  {
+    "id": "i",
+    "question": "Name the keyword used to declare a variable in JavaScript.",
+    "options": {
+      "a": "var",
+      "b": "let",
+      "c": "const",
+      "d": "All of these"
+    },
+    "correct_answer": "d"
+  },
+  {
+    "id": "ii",
+    "question": "Identify the correct way to link an external CSS file in HTML.",
+    "options": {
+      "a": "<link rel=\"stylesheet\" href=\"style.css\">",
+      "b": "<css link=\"style.css\">",
+      "c": "<style src=\"style.css\">",
+      "d": "<import href=\"style.css\">"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "iii",
+    "question": "Name the HTTP method used to send form data to a server securely.",
+    "options": {
+      "a": "GET",
+      "b": "POST",
+      "c": "DELETE",
+      "d": "PATCH"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "iv",
+    "question": "Outline the correct syntax for adding a hyperlink in HTML.",
+    "options": {
+      "a": "<a>link</a>",
+      "b": "<a href=\"url\">Link</a>",
+      "c": "<link>URL</link>",
+      "d": "<hyper>URL</hyper>"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "v",
+    "question": "Outline the object that represents the structure of an HTML document in JavaScript.",
+    "options": {
+      "a": "Window",
+      "b": "DOM (Document Object Model)",
+      "c": "Navigator",
+      "d": "Location"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "vi",
+    "question": "Outline what PHP stands for.",
+    "options": {
+      "a": "Personal Hypertext Processor",
+      "b": "Preprocessor Hypertext Processor",
+      "c": "PHP: Hypertext Preprocessor",
+      "d": "Programming Hypertext Processor"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "vii",
+    "question": "Which function is used to start a session in PHP?",
+    "options": {
+      "a": "start_session()",
+      "b": "session_start()",
+      "c": "init_session()",
+      "d": "session_init()"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "viii",
+    "question": "How do you define a variable in PHP?",
+    "options": {
+      "a": "var $variable;",
+      "b": "variable $variable;",
+      "c": "$variable = value;",
+      "d": "var variable = value;"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "ix",
+    "question": "Select the PHP statement used to include another PHP file.",
+    "options": {
+      "a": "include_file()",
+      "b": "include()",
+      "c": "import()",
+      "d": "load_file()"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "x",
+    "question": "Identify the correct way to close a session in PHP.",
+    "options": {
+      "a": "close_session()",
+      "b": "session_end()",
+      "c": "session_destroy()",
+      "d": "session_close()"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xi",
+    "question": "How would you evaluate the use of PHP in database-driven web applications?",
+    "options": {
+      "a": "It provides excellent database integration",
+      "b": "It is unsuitable for database operations",
+      "c": "It is not commonly used in modern applications",
+      "d": "It only works with MySQL databases"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xii",
+    "question": "Which of the following is used to connect to a MySQL database in PHP?",
+    "options": {
+      "a": "mysql_connect()",
+      "b": "mysqli_connect()",
+      "c": "connect_mysql()",
+      "d": "db_connect()"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xiii",
+    "question": "How would you define a constant in PHP?",
+    "options": {
+      "a": "const NAME = \"John\";",
+      "b": "constant NAME = \"John\";",
+      "c": "define(\"NAME\", \"John\");",
+      "d": "name(\"NAME\", \"John\");"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xiv",
+    "question": "How does PHP support error handling?",
+    "options": {
+      "a": "By using try...catch",
+      "b": "By using throw statements",
+      "c": "By using custom error handlers",
+      "d": "By using die() function"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xv",
+    "question": "Which function is used to retrieve data from a MySQL database in PHP?",
+    "options": {
+      "a": "fetch_assoc()",
+      "b": "mysqli_fetch_assoc()",
+      "c": "get_data()",
+      "d": "retrieve_data()"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xvi",
+    "question": "How does PHP handle form validation?",
+    "options": {
+      "a": "Through built-in validation functions",
+      "b": "By manually checking each form field",
+      "c": "It does not handle form validation",
+      "d": "By using JavaScript only"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xvii",
+    "question": "Which of the following is the best way to protect your PHP website from SQL injection?",
+    "options": {
+      "a": "By using the mysqli_query() function",
+      "b": "By using prepared statements",
+      "c": "By using $_POST method",
+      "d": "By validating user inputs only"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xviii",
+    "question": "How can we get the current date and time in PHP?",
+    "options": {
+      "a": "Using time() function",
+      "b": "Using date() function",
+      "c": "Using current() function",
+      "d": "Using getdate() function"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xix",
+    "question": "How would you store a value in a session variable in PHP?",
+    "options": {
+      "a": "$session_value = \"value\";",
+      "b": "$_SESSION[\"key\"] = \"value\";",
+      "c": "$_POST[\"key\"] = \"value\";",
+      "d": "$_GET[\"key\"] = \"value\";"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xx",
+    "question": "What is the use of the explode() function in PHP?",
+    "options": {
+      "a": "To split a string into an array",
+      "b": "To combine multiple arrays",
+      "c": "To merge two strings",
+      "d": "To transform a string into uppercase"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxi",
+    "question": "What is the main advantage of using object-oriented programming (OOP) in PHP?",
+    "options": {
+      "a": "It simplifies large projects",
+      "b": "It requires less code",
+      "c": "It allows easy inheritance and reusability",
+      "d": "It does not support inheritance"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xxii",
+    "question": "How would you define an array in PHP?",
+    "options": {
+      "a": "$array = \"value\";",
+      "b": "$array = [value];",
+      "c": "$array = [\"key\" => \"value\"];",
+      "d": "$array[] = value;"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xxiii",
+    "question": "Outline invalid HTML5 form input type.",
+    "options": {
+      "a": "email",
+      "b": "radio",
+      "c": "checkbox",
+      "d": "date-time"
+    },
+    "correct_answer": "d"
+  },
+  {
+    "id": "xxiv",
+    "question": "Which CSS property is used to change the background color of an element?",
+    "options": {
+      "a": "color",
+      "b": "background-color",
+      "c": "bgcolor",
+      "d": "back-color"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxv",
+    "question": "What is the purpose of the z-index property in CSS?",
+    "options": {
+      "a": "To change the size of an element",
+      "b": "To set the transparency of an element",
+      "c": "To control the stacking order of elements",
+      "d": "To set the background image of an element"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "xxvi",
+    "question": "Which HTML5 element allows dragging and dropping of items?",
+    "options": {
+      "a": "<drag>",
+      "b": "<draggable>",
+      "c": "<dragdrop>",
+      "d": "<dropzone>"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxvii",
+    "question": "Identify the correct syntax for adding an image in HTML.",
+    "options": {
+      "a": "<img src=\"url\" alt=\"description\">",
+      "b": "<image src=\"url\" alt=\"description\">",
+      "c": "<image alt=\"description\" src=\"url\">",
+      "d": "<image src=\"url\">"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxviii",
+    "question": "Select the correct way to apply an external CSS stylesheet to an HTML document.",
+    "options": {
+      "a": "<link href=\"style.css\">",
+      "b": "<style src=\"style.css\">",
+      "c": "<stylesheet href=\"style.css\">",
+      "d": "<css src=\"style.css\">"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxix",
+    "question": "Identify the CSS property used to change the font family of text.",
+    "options": {
+      "a": "font-style",
+      "b": "font-family",
+      "c": "text-family",
+      "d": "font-weight"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxx",
+    "question": "Select the HTML5 element used to embed a video.",
+    "options": {
+      "a": "<video>",
+      "b": "<media>",
+      "c": "<movie>",
+      "d": "<film>"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxxi",
+    "question": "Outline the purpose of the @media rule in CSS.",
+    "options": {
+      "a": "It defines a print stylesheet",
+      "b": "It is used to define media queries for responsive design",
+      "c": "It changes the background of the page",
+      "d": "It styles images"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxxii",
+    "question": "Select the correct way to apply CSS styles inline.",
+    "options": {
+      "a": "<style=\"color:red;\">",
+      "b": "<div style=\"color:red;\">",
+      "c": "<span color=\"red\">",
+      "d": "<font color=\"red\">"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxxiii",
+    "question": "Identify the role of the <head> element in HTML.",
+    "options": {
+      "a": "Contains links to CSS stylesheets",
+      "b": "Contains the content of the page",
+      "c": "Contains the script elements",
+      "d": "Contains the metadata of the document"
+    },
+    "correct_answer": "d"
+  },
+  {
+    "id": "xxxiv",
+    "question": "Select the properties used to create space around an element in CSS.",
+    "options": {
+      "a": "padding",
+      "b": "margin",
+      "c": "border",
+      "d": "spacing"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "xxxv",
+    "question": "The console.log() function in JavaScript is used to:",
+    "options": {
+      "a": "Log messages to the console",
+      "b": "Alert messages on the screen",
+      "c": "Change the content of an element",
+      "d": "Set values in local storage"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxxvi",
+    "question": "The push() method in JavaScript adds an element to:",
+    "options": {
+      "a": "The end of an array",
+      "b": "The start of an array",
+      "c": "The middle of an array",
+      "d": "A random position in the array"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxxvii",
+    "question": "The alert() method in JavaScript is designed to:",
+    "options": {
+      "a": "Display a pop-up message",
+      "b": "Modify the DOM element",
+      "c": "Show data in the browser console",
+      "d": "Highlight a part of the page"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxxviii",
+    "question": "The push() method in JavaScript modifies an array by:",
+    "options": {
+      "a": "Adding elements at the end",
+      "b": "Removing elements from the start",
+      "c": "Sorting elements in ascending order",
+      "d": "Reversing the order of elements"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xxxix",
+    "question": "The setTimeout() function performs the task of:",
+    "options": {
+      "a": "Running code after a delay",
+      "b": "Repeating code at regular intervals",
+      "c": "Pausing code execution",
+      "d": "Running code immediately"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xl",
+    "question": "document.getElementById() retrieves:",
+    "options": {
+      "a": "An element by its ID",
+      "b": "All elements with a class name",
+      "c": "An element by its class name",
+      "d": "An element by its tag name"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xli",
+    "question": "localStorage in JavaScript is used for:",
+    "options": {
+      "a": "Storing data on the client's browser",
+      "b": "Storing data on the server",
+      "c": "Storing temporary data in memory",
+      "d": "Storing data on an external database"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlii",
+    "question": "querySelector() in JavaScript returns:",
+    "options": {
+      "a": "The first matching element",
+      "b": "All matching elements",
+      "c": "Elements with a specific class",
+      "d": "Elements by tag name"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xliii",
+    "question": "The correct way to declare a constant in JavaScript is:",
+    "options": {
+      "a": "const myVar = 5;",
+      "b": "let myVar = 5;",
+      "c": "var myVar = 5;",
+      "d": "static myVar = 5;"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xliv",
+    "question": "Name the method used to check if a string contains a substring:",
+    "options": {
+      "a": "includes()",
+      "b": "hasSubstring()",
+      "c": "findSubstring()",
+      "d": "matchSubstring()"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlv",
+    "question": "A for loop in JavaScript:",
+    "options": {
+      "a": "Repeats a block of code a set number of times",
+      "b": "Creates an array of elements",
+      "c": "Loops through a string",
+      "d": "Loops through a list of objects"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlvi",
+    "question": "The correct syntax to create a new object in JavaScript:",
+    "options": {
+      "a": "var person = {};",
+      "b": "var person = []",
+      "c": "var person = object();",
+      "d": "var person = ({});"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlvii",
+    "question": "The forEach() method in JavaScript is used to:",
+    "options": {
+      "a": "Iterate over array elements",
+      "b": "Find an element in an array",
+      "c": "Add new elements to an array",
+      "d": "Sort array elements"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlviii",
+    "question": "A variable that can be reassigned in JavaScript is declared using:",
+    "options": {
+      "a": "let",
+      "b": "const",
+      "c": "final",
+      "d": "immutable"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "xlix",
+    "question": "The use of the catch() method in JavaScript:",
+    "options": {
+      "a": "Handling promise errors",
+      "b": "Running code after a delay",
+      "c": "Repeating code on intervals",
+      "d": "Modifying HTML content"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "l",
+    "question": "Math.random() generates:",
+    "options": {
+      "a": "A random number between 0 and 1",
+      "b": "A random number between 0 and 100",
+      "c": "A random string",
+      "d": "A random boolean value"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "li",
+    "question": "getElementsByClassName() returns:",
+    "options": {
+      "a": "A list of elements with a class name",
+      "b": "The first element with the class name",
+      "c": "An array of class names",
+      "d": "A single element"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lii",
+    "question": "typeof \"Hello\" in JavaScript returns:",
+    "options": {
+      "a": "string",
+      "b": "text",
+      "c": "object",
+      "d": "undefined"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "liii",
+    "question": "XML is primarily used to:",
+    "options": {
+      "a": "Display data",
+      "b": "Store and transport data",
+      "c": "Style data",
+      "d": "Create images"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "liv",
+    "question": "An XML document starts with:",
+    "options": {
+      "a": "<xml>",
+      "b": "<?xml version=\"1.0\"?>",
+      "c": "<root>",
+      "d": "<data>"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lv",
+    "question": "The correct way to define the structure of an XML document:",
+    "options": {
+      "a": "XML Schema",
+      "b": "CSS",
+      "c": "JavaScript",
+      "d": "HTML"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lvi",
+    "question": "XML elements are enclosed in:",
+    "options": {
+      "a": "Square brackets",
+      "b": "Parentheses",
+      "c": "Angle brackets",
+      "d": "Curly braces"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "lvii",
+    "question": "A CDATA section in XML allows to:",
+    "options": {
+      "a": "Include text without escaping characters",
+      "b": "Define a comment section",
+      "c": "Include other XML elements",
+      "d": "Add a new attribute"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lviii",
+    "question": "The xmlns attribute in XML:",
+    "options": {
+      "a": "Defines the version of XML",
+      "b": "Declares an XML namespace",
+      "c": "Specifies the data format",
+      "d": "Specifies the root element"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lix",
+    "question": "Which statement is true about XML elements?",
+    "options": {
+      "a": "They must be enclosed in quotes",
+      "b": "They can be case-insensitive",
+      "c": "They must have a start and end tag",
+      "d": "They are always empty"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "lx",
+    "question": "XML allows you to:",
+    "options": {
+      "a": "Create webpages",
+      "b": "Store structured data",
+      "c": "Create dynamic content",
+      "d": "Style the webpage"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxi",
+    "question": "In XML, the root element:",
+    "options": {
+      "a": "Can have multiple tags",
+      "b": "Must be unique",
+      "c": "Can be empty",
+      "d": "Can appear anywhere in the file"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxii",
+    "question": "_________ is used to style XML data.",
+    "options": {
+      "a": "XML Schema",
+      "b": "XSLT",
+      "c": "XPATH",
+      "d": "JSON"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxiii",
+    "question": "XML elements must:",
+    "options": {
+      "a": "Be self-closing",
+      "b": "Have a start and end tag",
+      "c": "Be defined by HTML",
+      "d": "Contain only text"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxiv",
+    "question": "An attribute in XML is:",
+    "options": {
+      "a": "Always placed after the end tag",
+      "b": "Always placed in the start tag",
+      "c": "Only used inside comments",
+      "d": "Always written in capital letters"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxv",
+    "question": "Identify the purpose of the XPATH language.",
+    "options": {
+      "a": "Validate XML structure",
+      "b": "Query XML documents",
+      "c": "Transform XML data into HTML",
+      "d": "Add style to XML data"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxvi",
+    "question": "Classify the advantages of using XML.",
+    "options": {
+      "a": "It is used to store images",
+      "b": "It makes data portable",
+      "c": "It is used to style data",
+      "d": "It is easier to read and write"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxvii",
+    "question": "XML can be used to store:",
+    "options": {
+      "a": "Audio and video files",
+      "b": "Structured data",
+      "c": "Only images",
+      "d": "Only text"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxviii",
+    "question": "The purpose of the xmlns:xsi attribute in XML:",
+    "options": {
+      "a": "Define the version",
+      "b": "Define a schema location",
+      "c": "Define a namespace",
+      "d": "Specify the root element"
+    },
+    "correct_answer": "c"
+  },
+  {
+    "id": "lxix",
+    "question": "Requirements for a valid XML file must be:",
+    "options": {
+      "a": "Properly closed and nested",
+      "b": "Contain only text",
+      "c": "Displayable in browsers",
+      "d": "Have at least one attribute"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxx",
+    "question": "Identify the language used for querying XML:",
+    "options": {
+      "a": "XSLT",
+      "b": "XPATH",
+      "c": "JavaScript",
+      "d": "HTML"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxxi",
+    "question": "The xmlns attribute is used in XML to:",
+    "options": {
+      "a": "Define an element",
+      "b": "Define a namespace",
+      "c": "Specify data format",
+      "d": "Link external documents"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxxii",
+    "question": "A well-formed XML document must:",
+    "options": {
+      "a": "Have matching start and end tags",
+      "b": "Use HTML tags",
+      "c": "Contain only text",
+      "d": "Include CSS tags"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxxiii",
+    "question": "An XML document can be stored in:",
+    "options": {
+      "a": "A plain text file",
+      "b": "A JSON file",
+      "c": "A MySQL database",
+      "d": "A CSS file"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxxiv",
+    "question": "The root element of an XML document is:",
+    "options": {
+      "a": "Optional",
+      "b": "Mandatory",
+      "c": "Defined by the user",
+      "d": "Defined by the operating system"
+    },
+    "correct_answer": "b"
+  },
+  {
+    "id": "lxxv",
+    "question": "The main difference between GET and POST methods in forms:",
+    "options": {
+      "a": "GET appends data in the URL, while POST sends data securely",
+      "b": "Both work the same way",
+      "c": "GET is more secure than POST",
+      "d": "POST appends data in the URL"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxxvi",
+    "question": "Select the tag used to include JavaScript in an HTML file.",
+    "options": {
+      "a": "<script>",
+      "b": "<js>",
+      "c": "<javascript>",
+      "d": "PATCH"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxxvii",
+    "question": "Name an input type that allows file selection in an HTML form.",
+    "options": {
+      "a": "<input type=\"file\">",
+      "b": "<input type=\"upload\">",
+      "c": "<input type=\"document\">",
+      "d": "<input type=\"text\">"
+    },
+    "correct_answer": "a"
+  },
+  {
+    "id": "lxxviii",
+    "question": "Identify the technique for using an external CSS file.",
+    "options": {
+      "a": "When CSS is applied inside an HTML file",
+      "b": "When CSS is written in the <style> section",
+      "c": "When CSS is stored in a separate .css file",
+      "d": "When CSS is written inside an element"
+    },
+    "correct_answer": "c"
+  }
+]
